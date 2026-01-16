@@ -4,6 +4,7 @@ Welcome to Optimal Finance. This is a documentation-first repository for optimiz
 
 
 🗂️ The Optimization Index
+
 **Cash Strategies**
 1. Highest-yield placement: Evaluating 2026 spreads between HYSAs, VUSXX, and T-Bills.
 2. Reverse Box Spread vs HYSA: More complicated but better aftertax return 
