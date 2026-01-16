@@ -1,7 +1,7 @@
 # OptimalFinanceKB
-Solving the personal finance system. 📐 Hunting for the optimal, peer-reviewing the logic, and open-sourcing the findings. Documenting the most efficient paths for taxes, debt, and rewards to make them accessible for everyone. 🛠️
 
-Welcome to Optimal Finance. This is a documentation-first repository for optimizing taxes, debt, and asset allocation. We treat personal finance as a System Engineering problem—shifting focus from "Saving" to "Efficiency Maximization."
+Welcome to Optimal Finance. This is a documentation-first repository for optimizing taxes, debt, and asset allocation. We treat personal finance as a System Engineering problem—shifting focus from "Saving" to "Efficiency Maximization." Below is a list of topics we would plan to build documentation on.
+
 
 🗂️ The Optimization Index
 **Cash Strategies**
