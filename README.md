@@ -87,3 +87,33 @@ This is a peer-review project for your wealth.
 Debug the Math: See a bug in my logic? Open an Issue.
 Suggest a Patch: Have a specific company's benefit guide? Submit a PR.
 Dialogue: Join the daily optimization threads on X (@optimal_finance) or walkthroughs on YouTube.
+
+---
+
+## 📝 Blog Draft Index
+
+Ten lead-tier drafts written in the [Open Investigator voice](STYLE_GUIDE.md). Each post traces the math on a specific strategy, shows working, and ends with a specific invitation for evidence that would update the analysis.
+
+**Suggested publishing order** (rationale in [STYLE_GUIDE.md](STYLE_GUIDE.md)):
+
+| # | File | Title | Why This Order |
+|---|---|---|---|
+| 1 | [drafts/08-tax-aware-long-short-funds.md](drafts/08-tax-aware-long-short-funds.md) | Tax-Aware Long-Short Funds: The Strategy You Can Never Leave | Highest-leverage post; addresses institutional product most readers have heard of; strongest Beat 3 ask |
+| 2 | [drafts/01-box-spread-pipeline.md](drafts/01-box-spread-pipeline.md) | Box Spread Loans: A Five-Stage Pricing Pipeline, Not a Hack | Establishes technical credibility; foundational for posts #2 and #5 |
+| 3 | [drafts/02-1256-vs-163d.md](drafts/02-1256-vs-163d.md) | The §1256 Tax Treatment That Makes Box Spreads Structurally Cheaper Than Margin | Quantifies the tax advantage; best read after #1 |
+| 4 | [drafts/03-cross-custodian-wash-sales.md](drafts/03-cross-custodian-wash-sales.md) | Cross-Custodian Wash Sales: The §1091 Trap Your Broker Won't Catch | Common operational failure; motivates why automation matters |
+| 5 | [drafts/09-lot-level-vs-account-level-tlh.md](drafts/09-lot-level-vs-account-level-tlh.md) | Lot-Level vs Account-Level TLH: The Math Gap Is Bigger Than You Think | Pairs with #4; both are "what your broker won't do for you" posts |
+| 6 | [drafts/04-subsector-direct-indexing.md](drafts/04-subsector-direct-indexing.md) | Subsector Direct Indexing Without Paying Wealthfront 0.25% | Shows the DIY framework after reader understands the wash-sale and lot-level context |
+| 7 | [drafts/05-self-liquidating-leverage.md](drafts/05-self-liquidating-leverage.md) | Self-Liquidating Leverage: Borrow to Harvest, Harvest to Exit, Exit to Repay | Synthesizes box spreads + TLH into a de-risking cycle |
+| 8 | [drafts/06-multi-year-concentrated-exit.md](drafts/06-multi-year-concentrated-exit.md) | Engineering a Multi-Year Exit from Concentrated Stock | Detailed playbook; best read after #7 establishes the leverage-as-bridge concept |
+| 9 | [drafts/07-exchange-funds-vs-diy.md](drafts/07-exchange-funds-vs-diy.md) | Exchange Funds vs DIY: When Do You Actually Need Eaton Vance? | Alternative for concentrated positions; closes the loop on post #8 |
+| 10 | [drafts/10-whole-life-policy-loans.md](drafts/10-whole-life-policy-loans.md) | Whole Life Policy Loans: The Honest Math | Standalone; honest broker on a topic where honest takes are rare |
+
+### Voice & Style
+
+All posts follow the **Open Investigator voice** defined in [STYLE_GUIDE.md](STYLE_GUIDE.md):
+1. **The Claim** — conventional wisdom, stated charitably
+2. **The Working** — traced math, first-person, specific numbers
+3. **The Open Hand** — what I might be missing + a real ask for evidence
+
+Each post ends with a specific invitation to open an issue with data that would update the analysis. This is peer review for finance, not a content blog.
