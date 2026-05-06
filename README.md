@@ -92,7 +92,7 @@ Dialogue: Join the daily optimization threads on X (@optimal_finance) or walkthr
 
 ## 📝 Blog Draft Index
 
-Ten lead-tier drafts written in the [Open Investigator voice](STYLE_GUIDE.md). Each post traces the math on a specific strategy, shows working, and ends with a specific invitation for evidence that would update the analysis.
+Twelve lead-tier drafts written in the [Open Investigator voice](STYLE_GUIDE.md). Each post traces the math on a specific strategy, shows working, and ends with a specific invitation for evidence that would update the analysis.
 
 **Suggested publishing order** (rationale in [STYLE_GUIDE.md](STYLE_GUIDE.md)):
 
@@ -108,6 +108,8 @@ Ten lead-tier drafts written in the [Open Investigator voice](STYLE_GUIDE.md). E
 | 8 | [drafts/06-multi-year-concentrated-exit.md](drafts/06-multi-year-concentrated-exit.md) | Engineering a Multi-Year Exit from Concentrated Stock | Detailed playbook; best read after #7 establishes the leverage-as-bridge concept |
 | 9 | [drafts/07-exchange-funds-vs-diy.md](drafts/07-exchange-funds-vs-diy.md) | Exchange Funds vs DIY: When Do You Actually Need Eaton Vance? | Alternative for concentrated positions; closes the loop on post #8 |
 | 10 | [drafts/10-whole-life-policy-loans.md](drafts/10-whole-life-policy-loans.md) | Whole Life Policy Loans: The Honest Math | Standalone; honest broker on a topic where honest takes are rare |
+| 11 | [drafts/11-deferred-comp-nqdc.md](drafts/11-deferred-comp-nqdc.md) | Deferred Comp: The Senior-Employee Perk Most Eligible People Don't Use | Largest single tax lever for top-bracket W-2 earners; scarce honest treatment |
+| 12 | [drafts/12-rmd-cliff-smart-withdrawals.md](drafts/12-rmd-cliff-smart-withdrawals.md) | RMD Cliff at 73? Why the Right Move Might Be to Start Smart Withdrawals at 60 | Integrated RMD + IRMAA + NIIT + SS stacking problem; gap-year conversion ladder |
 
 ### Voice & Style
 
