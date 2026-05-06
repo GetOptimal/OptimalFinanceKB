@@ -2,7 +2,7 @@
 
 ## Thesis
 
-The Mega Backdoor Roth is real, powerful, and worth up to ~$46k of additional Roth space per year (2024 limits). It is also the single planning move where general advice is most useless, because whether you can do it depends entirely on three specific provisions in your employer's plan document — and most articles don't tell you which provisions to look for or how to find out.
+The Mega Backdoor Roth is real, powerful, and worth up to ~$36k of additional Roth space per year (2024 limits, varies by employer match). It is also the single planning move where general advice is most useless, because whether you can do it depends entirely on three specific provisions in your employer's plan document — and most articles don't tell you which provisions to look for or how to find out.
 
 **Reader:** High earners with employer 401k plans who've read about MBR but bounced off because their plan portal didn't make it obvious whether it was available. Anyone who has maxed regular 401k + backdoor Roth IRA and is looking for the next bucket.
 
@@ -21,7 +21,7 @@ The Mega Backdoor Roth is real, powerful, and worth up to ~$46k of additional Ro
 
 ### The Math
 
-The 2024 §415(c) total contribution limit is **$69k** (under-50) / **$76.5k** (50+) — combined employee + employer + after-tax.
+The 2024 §415(c) total contribution limit is **$69k** (under-50) / **$76.5k** (50+) — combined employee + employer + after-tax. (Note: these are 2024 figures used for illustration; check current-year limits.)
 
 After your $23k employee deferral and your employer's match (say $10k), the remaining "after-tax bucket" is **~$36k**. That's the MBR space.
 
