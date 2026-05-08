@@ -1,0 +1,29 @@
+name: Trigger Netlify rebuild
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'drafts/**'
+      - 'tax-plays/**'
+      - 'STYLE_GUIDE.md'
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST to Netlify build hook
+        env:
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: |
+          if [ -z "${NETLIFY_BUILD_HOOK}" ]; then
+            echo "::error::NETLIFY_BUILD_HOOK secret is not set. Create the secret in repo Settings → Secrets and variables → Actions. The hook URL comes from the LandingPage Netlify site → Build hooks."
+            exit 1
+          fi
+          echo "Triggering Netlify rebuild for getoptimal.app/blog..."
+          curl --fail --silent --show-error -X POST -d '{}' "${NETLIFY_BUILD_HOOK}"
+          echo ""
+          echo "Build hook fired."
