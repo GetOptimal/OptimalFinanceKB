@@ -9,6 +9,8 @@ on:
       - 'STYLE_GUIDE.md'
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   trigger-rebuild:
     runs-on: ubuntu-latest

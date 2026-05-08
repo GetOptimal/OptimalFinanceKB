@@ -94,7 +94,7 @@ Dialogue: Join the daily optimization threads on X (@optimal_finance) or walkthr
 - Only posts with `status: published` are published. Posts marked `status: draft` stay private (while still visible in this repo and editable in the CMS).
 - A push to `main` that touches `drafts/**`, `tax-plays/**`, or `STYLE_GUIDE.md` triggers the **Trigger Netlify rebuild** workflow, which calls a Netlify build hook for the <a href="https://github.com/GetOptimal/LandingPage">`GetOptimal/LandingPage`</a> site.
 - For the workflow to trigger a Netlify build, this repo must have a `NETLIFY_BUILD_HOOK` secret configured:
-  1. In the Netlify site for LandingPage → **Site configuration → Build & deploy → Build hooks** → **Add build hook**. Name it `kb-content-updated`, branch `master`, then copy the generated URL.
+  1. In the Netlify site for LandingPage (whose deploy branch is `master`) → **Site configuration → Build & deploy → Build hooks** → **Add build hook**. Name it `kb-content-updated`, branch `master`, then copy the generated URL.
   2. In this repo → **Settings → Secrets and variables → Actions → New repository secret**. Name: `NETLIFY_BUILD_HOOK`; Value: the URL copied from Netlify.
 - Non-content edits (for example CI/config/docs-only changes) do not trigger a rebuild. To force a rebuild, run the workflow manually from the **Actions** tab using **Run workflow** (`workflow_dispatch`).
 
