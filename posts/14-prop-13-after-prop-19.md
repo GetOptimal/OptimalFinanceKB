@@ -1,3 +1,6 @@
+---
+status: draft
+---
 # Prop 13 After Prop 19: What Still Works for Inherited California Property
 
 ## Thesis

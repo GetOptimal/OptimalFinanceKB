@@ -91,8 +91,9 @@ Dialogue: Join the daily optimization threads on X (@optimal_finance) or walkthr
 ## How publishing works
 
 - Posts in this repo are published at `https://getoptimal.app/blog/<slug>`, where `<slug>` is the `slug:` value in each post's YAML frontmatter.
-- Only posts with `status: published` are published. Posts marked `status: draft` stay private (while still visible in this repo and editable in the CMS).
-- A push to `main` that touches `drafts/**`, `tax-plays/**`, or `STYLE_GUIDE.md` triggers the **Trigger Netlify rebuild** workflow, which calls a Netlify build hook for the <a href="https://github.com/GetOptimal/LandingPage">`GetOptimal/LandingPage`</a> site.
+- All blog posts live in `posts/`.
+- Publishing is controlled only by the `status:` field: posts with `status: published` are published, and posts with `status: draft` stay private. Folder location does not affect publishing.
+- A push to `main` that touches `posts/**` or `STYLE_GUIDE.md` triggers the **Trigger Netlify rebuild** workflow, which calls a Netlify build hook for the <a href="https://github.com/GetOptimal/LandingPage">`GetOptimal/LandingPage`</a> site.
 - For the workflow to trigger a Netlify build, this repo must have a `NETLIFY_BUILD_HOOK` secret configured:
   1. In the Netlify site for LandingPage (whose deploy branch is `master`) → **Site configuration → Build & deploy → Build hooks** → **Add build hook**. Name it `kb-content-updated`, branch `master`, then copy the generated URL.
   2. In this repo → **Settings → Secrets and variables → Actions → New repository secret**. Name: `NETLIFY_BUILD_HOOK`; Value: the URL copied from Netlify.
@@ -108,18 +109,18 @@ Twelve lead-tier drafts written in the [Open Investigator voice](STYLE_GUIDE.md)
 
 | # | File | Title | Why This Order |
 |---|---|---|---|
-| 1 | [drafts/08-tax-aware-long-short-funds.md](drafts/08-tax-aware-long-short-funds.md) | Tax-Aware Long-Short Funds: The Strategy You Can Never Leave | Highest-leverage post; addresses institutional product most readers have heard of; strongest Beat 3 ask |
-| 2 | [drafts/01-box-spread-pipeline.md](drafts/01-box-spread-pipeline.md) | Box Spread Loans: A Five-Stage Pricing Pipeline, Not a Hack | Establishes technical credibility; foundational for posts #2 and #5 |
-| 3 | [drafts/02-1256-vs-163d.md](drafts/02-1256-vs-163d.md) | The §1256 Tax Treatment That Makes Box Spreads Structurally Cheaper Than Margin | Quantifies the tax advantage; best read after #1 |
-| 4 | [drafts/03-cross-custodian-wash-sales.md](drafts/03-cross-custodian-wash-sales.md) | Cross-Custodian Wash Sales: The §1091 Trap Your Broker Won't Catch | Common operational failure; motivates why automation matters |
-| 5 | [drafts/09-lot-level-vs-account-level-tlh.md](drafts/09-lot-level-vs-account-level-tlh.md) | Lot-Level vs Account-Level TLH: The Math Gap Is Bigger Than You Think | Pairs with #4; both are "what your broker won't do for you" posts |
-| 6 | [drafts/04-subsector-direct-indexing.md](drafts/04-subsector-direct-indexing.md) | Subsector Direct Indexing Without Paying Wealthfront 0.25% | Shows the DIY framework after reader understands the wash-sale and lot-level context |
-| 7 | [drafts/05-self-liquidating-leverage.md](drafts/05-self-liquidating-leverage.md) | Self-Liquidating Leverage: Borrow to Harvest, Harvest to Exit, Exit to Repay | Synthesizes box spreads + TLH into a de-risking cycle |
-| 8 | [drafts/06-multi-year-concentrated-exit.md](drafts/06-multi-year-concentrated-exit.md) | Engineering a Multi-Year Exit from Concentrated Stock | Detailed playbook; best read after #7 establishes the leverage-as-bridge concept |
-| 9 | [drafts/07-exchange-funds-vs-diy.md](drafts/07-exchange-funds-vs-diy.md) | Exchange Funds vs DIY: When Do You Actually Need Eaton Vance? | Alternative for concentrated positions; closes the loop on post #8 |
-| 10 | [drafts/10-whole-life-policy-loans.md](drafts/10-whole-life-policy-loans.md) | Whole Life Policy Loans: The Honest Math | Standalone; honest broker on a topic where honest takes are rare |
-| 11 | [drafts/11-deferred-comp-nqdc.md](drafts/11-deferred-comp-nqdc.md) | Deferred Comp: The Senior-Employee Perk Most Eligible People Don't Use | Largest single tax lever for top-bracket W-2 earners; scarce honest treatment |
-| 12 | [drafts/12-rmd-cliff-smart-withdrawals.md](drafts/12-rmd-cliff-smart-withdrawals.md) | RMD Cliff at 73? Why the Right Move Might Be to Start Smart Withdrawals at 60 | Integrated RMD + IRMAA + NIIT + SS stacking problem; gap-year conversion ladder |
+| 1 | [posts/08-tax-aware-long-short-funds.md](posts/08-tax-aware-long-short-funds.md) | Tax-Aware Long-Short Funds: The Strategy You Can Never Leave | Highest-leverage post; addresses institutional product most readers have heard of; strongest Beat 3 ask |
+| 2 | [posts/01-box-spread-pipeline.md](posts/01-box-spread-pipeline.md) | Box Spread Loans: A Five-Stage Pricing Pipeline, Not a Hack | Establishes technical credibility; foundational for posts #2 and #5 |
+| 3 | [posts/02-1256-vs-163d.md](posts/02-1256-vs-163d.md) | The §1256 Tax Treatment That Makes Box Spreads Structurally Cheaper Than Margin | Quantifies the tax advantage; best read after #1 |
+| 4 | [posts/03-cross-custodian-wash-sales.md](posts/03-cross-custodian-wash-sales.md) | Cross-Custodian Wash Sales: The §1091 Trap Your Broker Won't Catch | Common operational failure; motivates why automation matters |
+| 5 | [posts/09-lot-level-vs-account-level-tlh.md](posts/09-lot-level-vs-account-level-tlh.md) | Lot-Level vs Account-Level TLH: The Math Gap Is Bigger Than You Think | Pairs with #4; both are "what your broker won't do for you" posts |
+| 6 | [posts/04-subsector-direct-indexing.md](posts/04-subsector-direct-indexing.md) | Subsector Direct Indexing Without Paying Wealthfront 0.25% | Shows the DIY framework after reader understands the wash-sale and lot-level context |
+| 7 | [posts/05-self-liquidating-leverage.md](posts/05-self-liquidating-leverage.md) | Self-Liquidating Leverage: Borrow to Harvest, Harvest to Exit, Exit to Repay | Synthesizes box spreads + TLH into a de-risking cycle |
+| 8 | [posts/06-multi-year-concentrated-exit.md](posts/06-multi-year-concentrated-exit.md) | Engineering a Multi-Year Exit from Concentrated Stock | Detailed playbook; best read after #7 establishes the leverage-as-bridge concept |
+| 9 | [posts/07-exchange-funds-vs-diy.md](posts/07-exchange-funds-vs-diy.md) | Exchange Funds vs DIY: When Do You Actually Need Eaton Vance? | Alternative for concentrated positions; closes the loop on post #8 |
+| 10 | [posts/10-whole-life-policy-loans.md](posts/10-whole-life-policy-loans.md) | Whole Life Policy Loans: The Honest Math | Standalone; honest broker on a topic where honest takes are rare |
+| 11 | [posts/11-deferred-comp-nqdc.md](posts/11-deferred-comp-nqdc.md) | Deferred Comp: The Senior-Employee Perk Most Eligible People Don't Use | Largest single tax lever for top-bracket W-2 earners; scarce honest treatment |
+| 12 | [posts/12-rmd-cliff-smart-withdrawals.md](posts/12-rmd-cliff-smart-withdrawals.md) | RMD Cliff at 73? Why the Right Move Might Be to Start Smart Withdrawals at 60 | Integrated RMD + IRMAA + NIIT + SS stacking problem; gap-year conversion ladder |
 
 ### Voice & Style
 
