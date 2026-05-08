@@ -1,7 +1,11 @@
 ---
+title: "Prop 13 After Prop 19: What Still Works for Inherited California Property"
+slug: "prop-13-after-prop-19"
 status: draft
+voice: open-investigator
+last_updated: 2026-05-06
+what_id_update_on: "Real recent reassessment outcomes from California county assessors under Prop 19"
 ---
-# Prop 13 After Prop 19: What Still Works for Inherited California Property
 
 ## Thesis
 

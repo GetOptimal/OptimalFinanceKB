@@ -1,7 +1,11 @@
 ---
+title: "Mega Backdoor Roth: The Move That Depends Entirely on Your Plan Document"
+slug: "mega-backdoor-roth"
 status: draft
+voice: open-investigator
+last_updated: 2026-05-06
+what_id_update_on: "Aggregated data on how many large-employer plans currently support all three required provisions, broken down by industry"
 ---
-# Mega Backdoor Roth: The Move That Depends Entirely on Your Plan Document
 
 ## Thesis
 

@@ -1,7 +1,11 @@
 ---
+title: "The Augusta Rule: Real, Narrow, and Easy to Get Wrong"
+slug: "augusta-rule"
 status: draft
+voice: open-investigator
+last_updated: 2026-05-06
+what_id_update_on: "Actual audit outcomes from CPAs who have defended Augusta deductions in the last 3 years"
 ---
-# The Augusta Rule: Real, Narrow, and Easy to Get Wrong
 
 ## Thesis
 
