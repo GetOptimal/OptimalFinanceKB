@@ -1,3 +1,6 @@
+---
+status: draft
+---
 # The Augusta Rule: Real, Narrow, and Easy to Get Wrong
 
 ## Thesis
