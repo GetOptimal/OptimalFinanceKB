@@ -3,7 +3,7 @@ title: "I quit the points game. Cash back is king."
 slug: "cashback-is-king"
 status: published
 voice: optimal
-last_updated: 2026-09-30
+last_updated: 2026-10-02
 ---
 
 # I quit the points game. Cash back is king.
@@ -25,3 +25,14 @@ What this looks like on my actual cards: 5% at Amazon and Whole Foods with the P
 Notice the fine print creeping back in: three of the five carry a membership fee or a balance requirement, and a rotating monthly category is exactly the kind of hoop the points game makes you jump through. That's the honest tension - a flat 3% on one card is the sane default, and everything past it is a hobby. A cheap, transparent one, but a hobby.
 
 I ran it on my own life. Most of my travel is economy seats on school-break dates - redemptions where the honest value lands near or below what a flat cashback card pays, before you count the delay, the devaluations and the mental overhead. So my spend earns cash now. The point is only worth what it buys you, and cash buys everything.
+
+## Assumptions
+
+Cash back should win on net dollars you can actually use, not on the biggest advertised rate.
+
+- **Rates and costs:** The article's 5% Prime Visa, 6% Blue Cash Preferred, 3% Robinhood Gold, 5% PayPal category and 4% Coinbase tier are dated card examples, not fresh offers or a promise every purchase qualifies. Each needs the current issuer terms, category definitions, exclusions and eligibility. The stated $6,000 grocery cap, $95 annual fee, $50 membership and $1,000 monthly spend cap are inputs to the example; verify them against your actual account before choosing a card.
+- **Cap arithmetic:** 6% x $6,000 = $360 gross grocery rewards before fees and other categories. A $95 annual fee would leave $265 if charged in full and allocated entirely to groceries. At 5% on $1,000 eligible monthly spending, gross rewards cap at $50 a month under that assumed cap. These are not incremental benefits over another card: subtract what the alternative pays.
+- **Net comparison:** Use eligible spend x reward rate, less fees, membership costs and any required-balance opportunity cost. Crypto collateral/balances add price and custody risk; a quoted 4% reward is not a return on that balance. The article does not supply the required Coinbase balance or a risk-adjusted comparison.
+- **Points:** Honest value per point = (cash value you would actually pay - award cash charges) / points redeemed. Compare points earned per dollar x that value with net cash back per dollar. Include redemption delay, devaluation, unusable balances and availability. "Five cards" counts the examples, not an optimized portfolio, and a flat 3% is a preference in this example, not a universal current best offer.
+
+Have better inputs, a missing cost or evidence that changes the result? [Share it](https://github.com/GetOptimal/OptimalFinanceKB/issues). We will update our assumptions and conclusions to reflect the most accurate representation.
