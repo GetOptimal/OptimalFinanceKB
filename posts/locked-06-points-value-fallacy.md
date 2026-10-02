@@ -3,7 +3,7 @@ title: "ThePointsGuy and the rest of the points industrial complex are tricking 
 slug: "points-value-fallacy"
 status: published
 voice: optimal
-last_updated: 2026-09-30
+last_updated: 2026-10-02
 ---
 
 # ThePointsGuy and the rest of the points industrial complex are tricking you.
@@ -27,3 +27,14 @@ My test now is simple. What would I book if points didn't exist? What's the most
 The reward isn't proving I got 8 cents per point. It's taking the trip I want without fooling myself about what it cost.
 
 That's why I got out of the points game. My card spend earns cashback now - money that needs no valuation, no transfer partners, no defending. (I wrote about the switch here: [Cash back is king](/blog/cashback-is-king/))
+
+## Assumptions
+
+The same division can measure sticker-price value or personal savings. We mean the latter.
+
+- **Hotel example:** $2,800 / 70,000 points = $0.04, or 4 cents per point. $700 / 70,000 = $0.01, or 1 cent per point, one quarter of the headline. The $700 ceiling is the stated willingness to pay, not a market quote. Both calculations assume a one-night redemption and no award cash charges. Subtract unavoidable award charges from the relevant cash alternative, on the same dates and room terms.
+- **Poker-chip analogy:** One $500 chip equals five $100 bills in face value. It illustrates framing, not evidence that every points user overspends. The closing 8-cents example is rhetorical, not an additional documented redemption.
+- **Delta case:** The [November 20, 2024 investor-day transcript](https://s2.q4cdn.com/181345880/files/doc_downloads/2024/11/CORRECTED-TRANSCRIPT_-Delta-Air-Lines-Inc-DAL-US-Investor-Day-20-November-2024-8_30-AM-ET.pdf) reports the roughly 15-years-earlier comparison: 92% domestic first-class load factor, 12% paid first-class seats and fares about 13 times coach; the speaker puts the later paid share around 75%. Load factor and paid share are different measures. These are the company's historical claims, not proof of present hotel demand or your willingness to pay.
+- **Decision:** Count the trip you would otherwise buy, cash fees and points actually available. Do not call the whole retail price "savings" if you would have chosen a cheaper alternative.
+
+Have better inputs, a missing cost or evidence that changes the result? [Share it](https://github.com/GetOptimal/OptimalFinanceKB/issues). We will update our assumptions and conclusions to reflect the most accurate representation.
