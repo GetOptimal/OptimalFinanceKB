@@ -3,7 +3,7 @@ title: "DIY: the subsector TLH engine - lower-effort direct indexing."
 slug: "subsector-tlh-engine"
 status: published
 voice: optimal
-last_updated: 2026-09-30
+last_updated: 2026-10-02
 ---
 
 # DIY: the subsector TLH engine - lower-effort direct indexing.
@@ -19,3 +19,15 @@ Why subsectors instead of stocks? The stock version harvests deeper - more line 
 The losses are the fuel. Banked losses offset gains anywhere: the concentrated stock you're selling down, the box spread's Section 1256 losses stacking alongside, a future liquidity event. Whatever you can't use carries forward indefinitely. You're building a tax asset one red month at a time.
 
 The honest caveats. The engine is most productive when it's young and when markets are choppy - a long smooth bull run starves it. Substitute ETFs never track perfectly, so you eat small tracking differences. And the harvest needs discipline: check on a schedule, not on vibes, and let automation do the watching where you can. But the barrier was never intelligence or even effort. It's that nobody packages this, because the packaging is where the fee lives.
+
+## Assumptions
+
+The engine trades precision for fewer positions. Its tax value depends on the portfolio you actually build and the losses you can actually use.
+
+- **Position count:** Twelve positions is an illustrative implementation size, not a validated minimum or a claim of a measured percentage of direct-indexing benefit. The "hundreds" comparison describes the individual-stock approach. No backtest here quantifies "nearly as good," tracking error or loss yield.
+- **Replacement choices:** Two or three candidate ETFs per bucket is a design goal, not proof every subsector has interchangeable, liquid, low-cost and tax-safe alternatives. Indexes, holdings, weights, spreads and expenses need to be checked for each pair. Correlated does not automatically mean substantially identical, but different tickers or issuers alone do not establish safety.
+- **Wash sales:** [IRS Schedule D instructions](https://www.irs.gov/instructions/i1040sd) test substantially identical purchases within 30 days before or after a loss sale. Day 31 is outside that forward window only if no other relevant purchase creates a wash sale; review other accounts, automatic reinvestment and related transactions too.
+- **Loss use:** Allowable losses offset gains under applicable netting rules, with carryforwards subject to tax rules. A harvested loss is not a dollar-for-dollar tax saving. Value depends on gain character, rate, timing and subsequent sale of the replacement, whose lower basis can defer tax rather than eliminate it. ETF losses do not "offset" another loss; financing losses, if eligible, add to the loss pool rather than becoming gains for ETF losses to offset.
+- **Return and risk:** Specify bucket weights, benchmark, rebalancing, harvest threshold, trading costs, tracking error and monitoring cadence. These inputs are not supplied as a reproducible portfolio here. No schedule guarantees something is always below your basis or that the whole portfolio exactly tracks the market.
+
+Have better inputs, a missing cost or evidence that changes the result? [Share it](https://github.com/GetOptimal/OptimalFinanceKB/issues). We will update our assumptions and conclusions to reflect the most accurate representation.
