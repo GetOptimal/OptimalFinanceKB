@@ -3,7 +3,7 @@ title: "HYSA are a tax trap. Here are 3 alternatives."
 slug: "hysa-tax-trap"
 status: published
 voice: optimal
-last_updated: 2026-09-30
+last_updated: 2026-10-02
 ---
 
 # HYSA are a tax trap. Here are 3 alternatives.
@@ -30,3 +30,15 @@ THE MATH - a scenario, not a live shopping list. CA household, 37% federal / 13.
 That ranks box > VUSXX > SGOV > HYSA, but the box's lead over VUSXX is ~0.17pt before unmodeled execution costs. A better actual HYSA rate, lower bracket, fund purchase fee, or a bad box fill flips the order. Yields above are dated snapshots with different conventions.
 
 The play: keep the immediate-use cushion in insured deposits. Run the rest through matched-date, after-tax, net-cost math against your actual bracket and withdrawal needs. The best alternative is the one that keeps you the most without making the cash fail its job.
+
+## Assumptions
+
+Compare what you keep, using the same dates and the same cash job. These are scenario inputs, not executable offers.
+
+- **Yields and rates:** The illustration uses HYSA 4.25%, VUSXX 3.69%, SGOV 3.67% and a long-box 4.15%; ordinary federal tax 37%, California 13.3% and long-term federal tax 20%. It excludes NIIT and does not model federal deductibility of state taxes. APY, SEC yield and box maturity yield are different conventions; a decision needs matched-date quotes and an identical holding period.
+- **Arithmetic:** HYSA: 4.25% x (1 - 0.37 - 0.133) = 2.11225%. VUSXX: 3.69% x (1 - 0.37) = 2.3247%. SGOV uses the rounded 4.9% state-taxable share: 3.67% x (1 - 0.37 - 0.133 x 0.049) = about 2.29%. For a qualifying Section 1256 box, the assumed federal rate is 60% x 20% + 40% x 37% = 26.8%; 4.15% x (1 - 0.268 - 0.133) = 2.48585%. Results round to 2.11%, 2.32%, 2.29% and 2.49%. The box-VUSXX gap is about 0.16 percentage point from unrounded inputs, or 0.17 from displayed results.
+- **State exemption:** [Vanguard's 2025 report](https://investor.vanguard.com/content/dam/retail/publicsite/en/documents/taxes/usgo-2025.pdf) gives VUSXX 100%; [iShares' 2025 report](https://www.ishares.com/us/literature/tax-information/2025-ishares-us-government-source-income-information-stamped.pdf) gives SGOV 95.14%, leaving 4.86% before rounding. These are income-source percentages for 2025, not promises for 2026. State qualification tests still apply.
+- **Box and costs:** The 4.15% input assumes about 4.21% yield from a 4.11% bank-discount 13-week auction minus 0.06 percentage point of slippage. That conversion needs the actual settlement dates and day-count convention; no executable four-leg quote is supplied. [Form 6781](https://www.irs.gov/forms-pubs/about-form-6781) is the starting point for qualifying-contract treatment, not proof every trade qualifies. Commissions, spreads, early exit and tax timing can change the result.
+- **Other numbers:** VUSXX's $1 is a target NAV, not deposit insurance. The $49.95-$74.95 purchase-fee range is the article's dated broker example, not a confirmed charge on your account. Recheck the exact ticker, broker and trade preview. A purchase fee can swamp a small yield advantage. Wash-sale testing covers the 30 days before and after a loss sale, including relevant other accounts.
+
+Have better inputs, a missing cost or evidence that changes the result? [Share it](https://github.com/GetOptimal/OptimalFinanceKB/issues). We will update our assumptions and conclusions to reflect the most accurate representation.
