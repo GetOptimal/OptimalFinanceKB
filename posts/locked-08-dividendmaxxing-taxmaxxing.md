@@ -3,7 +3,7 @@ title: "DividendMaxxing = TaxMaxxing."
 slug: "dividendmaxxing-taxmaxxing"
 status: published
 voice: optimal
-last_updated: 2026-09-30
+last_updated: 2026-10-02
 ---
 
 # DividendMaxxing = TaxMaxxing.
@@ -27,3 +27,14 @@ Fine. Buy the guardrails if you need them. Just know what you're paying for: it'
 My rule: own the whole market, sell slices when I need cash, and let the basis step up at the end. The company doesn't schedule my sales. I do.
 
 Pay the IRS less. Live more.
+
+## Assumptions
+
+The comparison is about control over taxable cash flow, not a promise that dividends never belong in a portfolio.
+
+- **The $10,000 example:** The shares doubled, so $10,000 of proceeds contains $5,000 of basis and $5,000 of long-term gain. At the illustrative 37% combined rate, $5,000 x 37% = $1,850; $1,850 / $10,000 = 18.5%. A $10,000 fully taxable qualified dividend at that same rate costs $3,700. These are equal gross-cash amounts, not equal after-tax spending amounts.
+- **Tax rates:** About 37% assumes a top-bracket California investor with long-term gains/qualified dividends. Roughly 50% is an ordinary-income scenario, not a rate on every REIT, BDC or bond distribution. Distribution character, deductions, basis recovery, account type and net investment income tax matter. The math assumes a taxable account; an IRA or 401(k) changes the comparison.
+- **Inheritance:** A basis step-up assumes qualifying property at death under the law then in force. It is not a promise about future law, every account or estate tax. The comparison also assumes shares can be held rather than sold for spending.
+- **Historical dividend claims:** The article uses a roughly 21% 2009 decline, a one-in-three-payers cut claim and a roughly 30% financial-sector share entering the crisis. These need a consistent index, payer denominator and measurement dates. A [contemporaneous S&P release](https://press.abc-directory.com/press/5487) projected a 21.4% full-year decline and described 78 cuts, but that alone does not establish the one-in-three-payers denominator. It described financials at 20.5% at the start of 2009, down from a 30% peak. Do not treat a peak share as every year's share. Historical cuts demonstrate vulnerability, not a forecast of the next crisis.
+
+Have better inputs, a missing cost or evidence that changes the result? [Share it](https://github.com/GetOptimal/OptimalFinanceKB/issues). We will update our assumptions and conclusions to reflect the most accurate representation.
