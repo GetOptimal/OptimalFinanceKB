@@ -3,7 +3,7 @@ title: "The most irrational luxury purchase sold as the American dream: a house 
 slug: "rent-vs-buy-american-dream"
 status: published
 voice: optimal
-last_updated: 2026-09-30
+last_updated: 2026-10-02
 ---
 
 # The most irrational luxury purchase sold as the American dream: a house in a premium California suburb.
@@ -27,3 +27,17 @@ And renting has real costs: rent rises while mortgages don't, there's no forced 
 So the full play in those zip codes: rent the $2.8 million house for $7,200, and invest the difference. That's $10,850 a month in cash savings, plus the $560,000 that never became a down payment, and that compounds. If I rent this house for 5 years with market returns - 7% assumed - that's $1.56 million. For 10 years, that's $2.98 million: more than the house, paid to yourself instead of to interest and taxes. If you want to own housing, own it where rent covers the asset - not where you're buying someone else's tax reset. Let the landlord keep his 1988 basis. He's earning less than he thinks. You're paying less than you should.
 
 And if you buy anyway? It's a luxury to pay for the right to personalize your home. Just like a monogrammed Birkin, it's not a sound financial decision. But it's a luxury you're welcome to treat yourself to.
+
+## Assumptions
+
+This is a specific rent-versus-buy scenario, not a verdict on every house. The return assumptions and cash-flow rules decide the result.
+
+- **Monthly cost:** $2.8 million price x 20% down = $560,000; loan = $2.24 million. Interest-only at 6.75% costs $12,600 monthly. Tax at 1.2% of price is $33,600 annually/$2,800 monthly. Add $350 insurance and $2,300 upkeep: $18,050 monthly cash cost. Add $2,300 assumed opportunity cost: $20,350 unrecoverable cost, 2.83 times $7,200 rent. The opportunity-cost input corresponds to about 4.93% annually on the down payment; it is not the later 7% portfolio assumption.
+- **Cash invested:** $18,050 - $7,200 = $10,850 monthly. The renter invests that difference plus the $560,000 down payment. Do not also deduct opportunity cost in the portfolio simulation: that would count it twice. The interest-only debt remains $2.24 million; no principal repayment is modeled.
+- **House growth:** $2.8 million x 1.035^5 = about $3.326 million; less debt = $1.086 million equity. At ten years, value is about $3.950 million and equity $1.710 million. The model uses constant 3.5% appreciation, not a forecast.
+- **Portfolio growth and rounding:** The stated $1.56 million/$2.98 million renter balances and $475,000/$1.27 million leads depend on the exact compounding and contribution timing, which are not specified in the original calculation. With 7% effective annual return and end-of-month deposits, the balances are about $1.558 million and $2.958 million and the leads about $472,000 and $1.248 million. Using 7%/12 as the monthly rate instead gives about $1.571 million/$3.003 million. These nearby conventions do not reproduce every displayed figure exactly.
+- **Breakeven:** Under the 7%-effective-annual/end-of-month version, equal ten-year terminal balances require about 6.38% annual home appreciation before sale costs and taxes, close to the article's roughly 6.3%. The result changes with rent growth, maintenance, mortgage terms and return assumptions.
+- **What is outside the base case:** Purchase/sale costs, income and capital-gains taxes, deductions, rent increases, property-tax assessment growth, inflation and portfolio volatility are not modeled in the displayed fixed-cash-flow calculation. A proper sensitivity test must include them. The landlord's 1988 basis and roughly $13,000 tax bill are illustrative, not a verified property record. $33,600 - $13,000 = $20,600, rounded to $20,000. The 15-20 price-to-rent examples, ten-year turnover claim and hypothetical 100-year lease are context, not measured forecasts for this property. Annual rent of $86,400 puts this home's price-to-rent ratio at about 32.4.
+- **Calculator:** The [NYT calculator](https://www.nytimes.com/interactive/2024/upshot/buy-rent-calculator.html) is a comparison tool, not a saved reproduction of our inputs. The article does not provide a saved calculator run.
+
+Have better inputs, a missing cost or evidence that changes the result? [Share it](https://github.com/GetOptimal/OptimalFinanceKB/issues). We will update our assumptions and conclusions to reflect the most accurate representation.
