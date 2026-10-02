@@ -10,7 +10,7 @@ last_updated: 2026-10-02
 
 Buried in the benefits packet, after the 401(k) match and the ESPP, sits a plan most employees scroll past: nonqualified deferred compensation. It lets you push salary and bonus into the future - before it ever hits your W-2 - invest it, and take it back later. No IRS contribution limit. An executive can defer $250k or more a year, sidestepping the extreme top marginal rates that make every extra dollar earned feel half-optional. It's the last legal way to make a big chunk of income disappear from this year's tax return.
 
-The math. Defer $100k at a 50% combined marginal rate and you're investing the whole $100k instead of the $50k that would survive taxes. The deferred half compounds for years, maybe decades. Even if you pay the same rate on the way out, the spread between compounding $100k and compounding $50k is the perk. One thing you don't defer: FICA. Payroll taxes hit in the year you defer, not the year you're paid. The deferral is an income-tax play only.
+The math. Defer $100k at a 50% combined marginal rate and you're investing the whole $100k instead of the $50k that would survive income tax today. The benefit comes from avoiding annual taxable-account drag while the money compounds, and potentially paying a lower rate when it comes out. If the entry and exit rates are the same and the taxable alternative has no annual tax drag, the after-tax outcomes are equal at equal returns. One thing this isn't: a payroll-tax deferral to payout. FICA generally applies at the later of service or vesting. The deferral is an income-tax play.
 
 The state exit. Here's the play nobody talks about: federal law blocks states from taxing retirement income of nonresidents when it's paid in substantially equal installments over ten years or more. Defer while you're earning in California, structure the payout as a 10-year installment, move to Nevada or Texas, and California's 13.3% never lands. That's not a loophole. That's the statute.
 
@@ -18,7 +18,7 @@ The catch, and its real size. Your deferred comp is technically an IOU - you're 
 
 The election trap. You choose your distribution schedule before you earn the money, and 409A makes changing it painful: re-elections push payments out five years, early withdrawals are plan-specific, and a 409A failure can trigger a 20% federal tax plus interest; key employees at public companies wait six months after separation. The flexibility is an illusion. Plan the exit at the entrance.
 
-Who it's for. Max the 401(k) and the mega backdoor first - those are protected and portable; [Financial sovereignty](/blog/financial-sovereignty/) (link to the sovereignty piece). Then defer freely at any stable employer: this is free money hiding in the benefits packet, and almost nobody picks it up.
+Who it's for. This can be valuable if you're in a high tax bracket today and have high confidence your bracket will be the same or lower when the money is paid out. A lower payout rate adds to the benefit; at the same rate, the advantage depends on avoiding the taxable alternative's annual tax drag. Max the 401(k) and the mega backdoor first where available. Then weigh the deferral against your employer's credit risk and the payout schedule you can actually commit to.
 
 ## Assumptions
 
