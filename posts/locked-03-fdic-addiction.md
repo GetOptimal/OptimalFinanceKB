@@ -3,7 +3,7 @@ title: "Are you or someone you love addicted to FDIC? Help is on the way."
 slug: "fdic-addiction"
 status: published
 voice: optimal
-last_updated: 2026-09-30
+last_updated: 2026-10-02
 ---
 
 # Are you or someone you love addicted to FDIC? Help is on the way.
@@ -23,3 +23,14 @@ Why can Treasuries skip the hopping? FDIC covers a bank's promise to repay, up t
 If the point of three banks is "I won't leave $750k uninsured at one bank" - I get it. First read each account's APY. Keep what you need right away in the bank. Compare the rest against Treasuries on after-tax income and when you need to spend it. You may be paying dearly for the familiar form of safety.
 
 You know the person with three savings accounts and a spreadsheet of FDIC limits. Send them the math, not a lecture. Ask what their accounts actually pay. Their answer decides whether this is a $25,000 problem, a smaller tax problem, or no problem at all.
+
+## Assumptions
+
+The big number applies to low-yield accounts, not to everyone who uses insured deposits.
+
+- **Insurance:** [FDIC coverage](https://www.fdic.gov/resources/deposit-insurance/faq) is $250,000 per depositor, per insured bank, per ownership category. Three $250,000 balances assume three different insured banks and valid account ownership. Accrued interest and other balances in the same category can matter; three accounts at one bank do not create three limits.
+- **Low-yield example:** $250,000 x (0.005 + 0.003 + 0.001) = $2,250 annually. $750,000 x 0.0367 = $27,525. Difference = $25,275, rounded to roughly $25,000. The bank rates are examples; SGOV's 3.67% is the article's September 24, 2026 snapshot. Rates must remain constant for a year to produce those annual amounts, before taxes and costs.
+- **Competitive banks:** Equal balances at 4.25%, 3.75% and 3.25% average 3.75%, or $28,125 pretax. That beats the dated SGOV input by $600 pretax. The $3,000-$4,000 tax-gap discussion needs the investor's actual state/federal rates and SGOV's qualifying state-exempt income share; no single after-tax outcome follows from these yields alone.
+- **Risk and access:** Treasuries and an ETF holding Treasuries are not FDIC deposits. The comparison must include market price, spreads, taxes, settlement and withdrawal needs. The reference to 2008 is historical context, not an assumption about the next failure.
+
+Have better inputs, a missing cost or evidence that changes the result? [Share it](https://github.com/GetOptimal/OptimalFinanceKB/issues). We will update our assumptions and conclusions to reflect the most accurate representation.
