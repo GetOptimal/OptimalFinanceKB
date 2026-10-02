@@ -3,7 +3,7 @@ title: "The best way out of a concentrated position isn't for sale."
 slug: "concentrated-position-exit"
 status: published
 voice: optimal
-last_updated: 2026-09-30
+last_updated: 2026-10-02
 ---
 
 # The best way out of a concentrated position isn't for sale.
@@ -29,3 +29,17 @@ Is it fragile? A thousand simulated futures say no: the flywheel beats holding 6
 So what are the products actually for? Speed, completeness, and delegation. Both get you to zero concentration without you learning what a box spread is, and for some people that's worth a million or two of terminal wealth. But that's a luxury purchase, not a financial decision. And doing nothing deserves its own honesty: the $4 million of tax you "save" by dying with the stock is the reward for holding risk you didn't want for 20 years. The flywheel's real competitor was never the products. It was inertia.
 
 The caveat is execution. An individual can run this - no manager, no fee layer - but even the subsector TLH harvesting is easier said than done: it needs meticulous execution and benefits enormously from automation, and the box spread leverage doubly so. That doesn't change the direction of the math: for the concentrated, the riskiest position is the one you're already in, and sometimes the way out runs through more borrowing, not less.
+
+## Assumptions
+
+These are the inputs and checks behind the flywheel comparison. The strategy should be judged on reproducible after-tax wealth and risk, not the appeal of its name.
+
+- **Starting wealth:** $10 million total, with $3 million in one stock and $1 million of basis, means 30% concentration and $2 million of embedded gain. Borrowing $400,000 is 4% of initial portfolio value. The remaining $7 million, its basis and its treatment must also be specified.
+- **Returns and financing:** The base case uses 20 years, 7% market returns, roughly 5.5% borrowing and a death/step-up endpoint. The simple expected spread is 1.5 percentage points before costs and taxes; on a constant $400,000 balance that is $6,000 per year, not guaranteed profit. Future borrowing rates, rollover, cash flows and the compounding convention matter.
+- **Financing benefit:** The $910,000 gross cost and $648,000 net benefit require the full annual debt schedule, contract proceeds/payoffs, Section 1256 tax character, usable offsets and reinvestment assumptions. They cannot be reconstructed from $400,000 and 5.5% alone. A financing loss is not itself income. Do not double count it as both a capital-loss benefit and an interest deduction.
+- **Tax budget and harvesting:** The $0 realized-tax budget is a policy constraint, not a guarantee losses are available. The $2.6 million advantage requires the unconstrained path's sale and tax schedule. The 89% diversification figure needs the starting-position denominator, prices, sale dates, harvested losses and remaining shares.
+- **Terminal wealth:** $36.4 million, $37.0 million, $38.3 million and $39.3 million are the original modeled outcomes. The flywheel-holding gap is $1 million; the product-holding gaps are $1.9 million and $1.3 million. The original annual return, fee, loss and tax schedules are not published here. The comparison needs the same endpoint, step-up treatment and cash-flow rules across paths. Concentrated holding is not risk-equivalent to diversification. Exit tax offsets part of a tax-aware strategy's benefit; it does not mean all benefits disappear.
+- **Simulation:** 1,000 futures with 63%, 61% and 59% win rates require the return distribution, correlations, volatility, random seed, borrowing/margin rules, loss-harvesting algorithm, comparison metric and treatment of failed paths. None is supplied here. These are reported simulation estimates, not independently reproducible probabilities or guarantees. "$4 million saved" also needs the final gain and applicable tax rate, not starting wealth alone.
+- **Product comparison:** The [AQR](../aqr-tax-deferred-bridge/) and [exchange-fund](../cache-exchange-funds/) appendices distinguish modeling fees from current terms and outline competing evidence. Updated product fees and exit choices can change these results.
+
+Have better inputs, a missing cost or evidence that changes the result? [Share it](https://github.com/GetOptimal/OptimalFinanceKB/issues). We will update our assumptions and conclusions to reflect the most accurate representation.
